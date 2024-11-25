@@ -1,7 +1,5 @@
-README for RBAC Assignment
 **Objective**
-The objective of this project is to develop a Role-Based Access Control (RBAC) system to manage and secure user access rights within an application. 
-By implementing this project, users and administrators can control access to resources, ensuring that permissions are assigned based on roles rather than individuals, thereby improving security and scalability.
+The objective of this project is to develop a Role-Based Access Control (RBAC) system to manage and secure user access rights within an application. By implementing this project, users and administrators can control access to resources, ensuring that permissions are assigned based on roles rather than individuals, thereby improving security and scalability.
 
 **Steps Involved**
 **npm init -y
