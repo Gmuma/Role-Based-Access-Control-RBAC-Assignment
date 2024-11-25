@@ -1,27 +1,34 @@
 **Objective**
+
 The objective of this project is to develop a Role-Based Access Control (RBAC) system to manage and secure user access rights within an application. By implementing this project, users and administrators can control access to resources, ensuring that permissions are assigned based on roles rather than individuals, thereby improving security and scalability.
 
+**1. Project Setup**
+   
 **Steps Involved**
-**npm init -y
 
-npm install express mongoose bcrypt jsonwebtoken dotenv cors body-parser
+**npm init -y**
 
-npm install --save-dev nodemon**
+**npm install express mongoose bcrypt jsonwebtoken dotenv cors body-parser**
 
-1. Project Setup
+**npm install --save-dev nodemon**
+
+
 Initialize the project with Express.js for backend development.
 Install necessary dependencies using npm or yarn.
 
 
-2. Environment Configuration
+**2. Environment Configuration**
+   
 Create a .env file to store sensitive information like database connection strings and secret keys.
 Add environment variables such as MONGO_URI for MongoDB connection.
 
-3. Database Setup
+**3. Database Setup**
+
 Use MongoDB to store user details, roles, and permissions.
 Define models for users, roles, and permissions in the models directory.
 
-**past your url in .env file**
+**4. past your url in .env file**
+
 PORT=5000
 
 MONGO_URI=your_mongodb_connection_string
@@ -34,13 +41,13 @@ Set up authentication and authorization routes in the routes directory.
 
 Implement the logic for user registration, login, and assigning roles in the controllers.
 
-7. Middleware Implementation
+**6. Middleware Implementation**
    
 Develop middleware for verifying tokens and checking role-based permissions.
 
 Integrate these middleware functions to secure specific routes.
 
-**9. Testing with Postman**
+**7. Testing with Postman**
 
 Use Postman to test the API endpoints such as:
 
